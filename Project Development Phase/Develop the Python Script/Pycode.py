@@ -26,24 +26,24 @@ def pub (data):
 while True:
 	myData={'name': 'Train1', 'lat': 17.6387448, 'lon': 78.4754336}
 	pub (myData) 
-	time.sleep (3)
-	#myData={'name': 'Train2', 'lat': 17.6387448, 'lon': 78.4754336) 
-	#pub (myData)
-	#time.sleep (3)
+	time.sleep (5)
+	myData={'name': 'Train1', 'lat': 17.6387448, 'lon': 78.4754336) 
+	pub (myData)
+	time.sleep (5)
 	myData={'name': 'Train1', 'lat': 17.6341908, 'lon': 78.4744722}
 	pub(myData)
-	time.sleep(3)
+	time.sleep(5)
 	myData={'name': 'Train1', 'lat': 17.6340889, 'lon': 78.4745052}
 	pub (myData)
-	time.sleep (3)
+	time.sleep (5)
 	myData={'name': 'Train1', 'lat': 17.6248626, 'lon': 78.4720259}
 	pub (myData)
-	time.sleep (3)
+	time.sleep (5)
 	myData={'name': 'Train1', 'lat': 17.6188577, 'lon': 78.4698726}
 	pub (myData)
-	time.sleep (3)
+	time.sleep (5)
 	myData={'name': 'Train1', 'lat': 17.6132382, 'lon': 78.4707318}
 	pub (myData)
-	time.sleep (3)
+	time.sleep (5)
 	client.commandCallback = myCommandCallback
 client.disconnect ()
